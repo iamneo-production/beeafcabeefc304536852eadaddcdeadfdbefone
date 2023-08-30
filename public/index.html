@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NUMBERATES</title>
+                                 
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <h1 id="title"> NUMBERATES</h1>
+    <h2 id="attemptsLabel" style="    margin-left: 85%;margin-top: 2%;">NO.OF.ATTEMPTS</h2>
+        <div class="center">
+            <p id="attemptCount"></p>
+          </div>
+          <img src="1.png" alt="skating">
+    
+        <div class="container">
+            <h4 id="heading">Guess the number between 1-100</h4>
+            <div class="form">
+                <label for="guessField" id="textLabel">Enter the number: </label>
+                <input type="text" id="textBox" class="guessField"><br>
+                <input type="submit" id="checkButton" value="Check" class="guessSubmit" style="cursor:pointer ;margin-top: 30px;
+                width: 45%;
+                padding: 6px;
+                margin-left: 25%;">
+              </div>
+            <div class="resultParas" style="padding-top: 10%;text-align: center;">
+                <p class="lastResult"></p>
+                <p class="guesses"></p>
+                <p class="lowOrHi"></p>
+            </div>
+            
+        </div>
+    
+    
+    
+    <script src="app.js"></script>
+    
+</body>
+
+</html>
